@@ -1,0 +1,172 @@
+/*Estilos generales*/
+
+/*NavBar*/
+
+
+.navbar-custom .nav-link {
+    margin-right: 100px;
+    font-size: large;
+    color: #fe2c82; /* Reemplaza con tu color deseado para las letras */
+    transition: color 0.8s ease; /* Transición suave de 0.8 segundos */
+
+}
+
+
+.navbar-custom .nav-link:hover {
+    color: #37adc0; /* Color al hacer hover en las letras */
+}
+
+/*Formulario*/
+
+.formulario{
+    background-color: #37adc0;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+
+  /*Contador*/
+
+  #contador {
+    margin: 50px auto;
+    background-color: #fe2c82;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+  
+  
+  #contador h1 {
+    font-size: 32px;
+  }
+  
+  #contador p {
+    font-size: 24px;
+  }
+
+.opiniones{
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #fe2c82;
+    border-radius: 50px;
+}
+
+.opiniones p{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.carousel slide {
+    transition:(.6 ease-in-out left)
+}
+  
+/*hover imagenes*/
+
+.card {
+    margin-top: 15px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 2px 20px rgba(0,0,0,0.2);
+  }
+  
+  .card:nth-child(1):hover .card-img-top {
+    filter: grayscale(100%);
+  }
+  
+  .card:nth-child(2):hover .card-title {
+    color: #fe2c82;
+  }
+  
+  .card:nth-child(3):hover .card-body {
+    background-color: #fe2c82;
+  }
+
+/* Estilos para el popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .popup-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #close-popup {
+    background-color: #fe2c82;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+
+  
